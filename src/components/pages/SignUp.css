@@ -1,0 +1,76 @@
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh; /* Full height */
+    position: relative; /* For overlay positioning */
+    background-image: url('./images/img-8.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  }
+  
+  .coming-soon {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif; /* Use modern font */
+  }
+  
+  .description {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    max-width: 600px;
+  }
+  
+  .countdown {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .timer {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .cta {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .subscribe-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ff5722; /* Stylish button color */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .subscribe-button:hover {
+    background: #e64a19; /* Darker shade on hover */
+  }
+  
